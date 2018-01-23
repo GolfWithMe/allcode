@@ -1,0 +1,8 @@
+#!/bin/bash
+
+cat devcopyfilelist | while read i; do
+ cp -r $i /root/allcode
+done
+
+cp devcopyfilelist /root/allcode
+cp makedevcopy /root/allcode
