@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<view title="FindGolfers">
+		<message>
+			<![CDATA[
+				Find Golfers view
+			]]>
+		</message>
+		<options var="task">
+ 			<default name="All Golfers" msg="Displays all Partner Request for the user" />
+			<option value="findpartner" name="- Find Golfers" msg="New Partner Request" />
+			<option value="viewpartner" name="- View Partner" msg="Displays all Partner Request for the user" />
+ 		</options>
+	</view>
+	<state>
+		<name>Find Golfers Layout</name>
+		<description>Find Golfers listings layout</description>
+	</state>
+</metadata>
